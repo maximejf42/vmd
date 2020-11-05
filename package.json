@@ -46,7 +46,7 @@
     "postcss": "6.0.22",
     "postcss-prefix-selector": "^1.6.0",
     "redux": "4.0.0",
-    "remark": "9.0.0",
+    "remark": "13.0.0",
     "remark-emoji-to-gemoji": "^1.1.0",
     "remark-frontmatter": "1.2.0",
     "remark-highlight.js": "5.0.0",
