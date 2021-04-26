@@ -43,7 +43,7 @@
     "js-yaml": "3.11.0",
     "lodash.template": "^4.4.0",
     "minimist": "^1.2.0",
-    "postcss": "6.0.22",
+    "postcss": "8.2.13",
     "postcss-prefix-selector": "^1.6.0",
     "redux": "4.0.0",
     "remark": "9.0.0",
