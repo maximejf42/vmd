@@ -539,10 +539,6 @@ deep-equal@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.0.1.tgz#f5d260292b660e084eff4cdbc9f08ad3247448b5"
 
-deep-extend@^0.4.0:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.4.2.tgz#48b699c27e334bf89f10892be432f6e4c7d34a7f"
-
 deep-extend@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
@@ -2625,16 +2621,17 @@ rimraf@^2.2.8, rimraf@^2.6.1:
   dependencies:
     glob "^7.0.5"
 
-rucola@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/rucola/-/rucola-1.1.3.tgz#1f0ab144715eea1dd792d840b4a10fb9b17c0c57"
+rucola@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/rucola/-/rucola-1.1.4.tgz#f2b858b4481ed34dc2eb62fd61a9a3c36934088c"
+  integrity sha512-59+lc7rs2jSXeqWFw8Nj04YqzzNjiYM0lA5DJTCzEZFYaQb+7lCRyPfNL9K5/D6NU3fp8F9Y1eAa1tjl12K1Iw==
   dependencies:
-    deep-extend "^0.4.0"
+    deep-extend "^0.6.0"
     flatnest "^1.0.0"
     ini "^1.3.4"
     minimist "^1.1.2"
-    strip-json-comments "^1.0.4"
-    yaml-js "^0.1.1"
+    strip-json-comments "^2.0.1"
+    yaml-js "^0.2.3"
 
 run-async@^2.2.0:
   version "2.3.0"
@@ -2910,11 +2907,7 @@ strip-indent@^1.0.1:
   dependencies:
     get-stdin "^4.0.1"
 
-strip-json-comments@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-1.0.4.tgz#1e15fbcac97d3ee99bf2d73b4c656b082bbafb91"
-
-strip-json-comments@~2.0.1:
+strip-json-comments@^2.0.1, strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
 
@@ -3287,9 +3280,10 @@ yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-3.0.2.tgz#8452b4bb7e83c7c188d8041c1a837c773d6d8bb9"
 
-yaml-js@^0.1.1:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/yaml-js/-/yaml-js-0.1.5.tgz#a01369010b3558d8aaed2394615dfd0780fd8fac"
+yaml-js@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/yaml-js/-/yaml-js-0.2.3.tgz#f4cf6c1b3c784f59f55547d7dfcdd06418303291"
+  integrity sha512-6xUQtVKl1qcd0EXtTEzUDVJy9Ji1fYa47LtkDtYKlIjhibPE9knNPmoRyf6SGREFHlOAUyDe9OdYqRP4DuSi5Q==
 
 yargs-parser@^10.0.0:
   version "10.0.0"
